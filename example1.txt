@@ -1,0 +1,10 @@
+Bread,Milk,Eggs,Cheese
+Yogurt,Beef,Tomatoes,Potatoes
+Bananas,Potatoes,Lettuce,Tomatoes,Oranges
+Cheese,Chicken,Carrots,Apples,Onions
+Eggs,Milk,Potatoes,Chicken
+Lettuce,Bananas,Oranges,Beef
+Carrots,Beef,Lettuce,Eggs
+Cereal,Yogurt,Milk,Oranges,Apples
+Fish,Yogurt,Potatoes,Beef
+Cheese,Lettuce,Potatoes,Apples
