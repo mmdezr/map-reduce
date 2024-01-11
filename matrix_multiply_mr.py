@@ -15,10 +15,10 @@ class MRMatrixMultiply(MRJob):
         row, column, value = int(row), int(column), float(value)
 
         if matrix_name == 'A':
-            for k in range(100):  # assuming matrix B has 100 columns
+            for k in range(100):  
                 yield (row, k), ('A', column, value)
         elif matrix_name == 'B':
-            for i in range(100):  # assuming matrix A has 100 rows
+            for i in range(100):  
                 yield (i, column), ('B', row, value)
 
     def reducer(self, key, values):
