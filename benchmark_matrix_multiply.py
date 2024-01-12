@@ -44,7 +44,7 @@ def benchmark(A, B):
     print(f"MapReduce matrix multiplication took {mapreduce_time:.2f} seconds.")
 
 # Dimensions for the matrices
-m, n, p = 400, 400, 400  # Example dimensions for m x n and n x p matrices
+m, n, p = 100, 100, 100  # Example dimensions for m x n and n x p matrices
 
 # Generate matrices A (m by n) and B (n by p)
 A = generate_matrix(m, n)  
